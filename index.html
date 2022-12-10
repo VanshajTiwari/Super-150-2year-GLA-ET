@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body style="background-color: white;">
+    <div style="width:80vw;margin: auto;background-color: white;">
+        <nav style="display: flex;background-color: white;margin-top: 15px;">
+            <i class="fa-solid fa-v" style="transform: rotate(180deg);font-size:35px;color:#0373FF;"></i>
+            <h1 style="position:relative;top:14px;margin-left:3px;">Milao</h1>
+            <ul class="nav001" style="display: flex;margin-left: 400px;">
+                <li style="margin-left: 50px;font-size: 18px;color:blue">Search Naukri</li>
+                <li style="margin-left: 50px;font-size: 18px;">Company</li>
+                <li style="margin-left: 50px;font-size: 18px;">Find Salaries</li>
+            </ul>
+            <div style="display:flex;position: relative;left: 150px;">
+                <i class="fa-solid fa-moon" style="font-size: 20px;margin-right:10px"></i>
+                <div
+                    style="width:12px ;height:12px;border-radius: 10px;border:1px solid white;background-color: green;">
+                </div>
+                <img src="" alt="">
+                <p>john Doe</p>
+            </div>
+        </nav>
+        <nav style="background-color: white;margin-top:50px;font-size:18px">
+            <ul style="display: flex;margin-left:150px">
+                <li style="border-radius:40px;box-shadow:0px 0px 2px grey ;padding:10px;margin-right: 20px;color:blue">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Product Designer X
+                </li>
+                <li style="border-radius:40px;box-shadow:0px 0px 2px grey ;padding:10px;margin-right: 20px;color:blue">
+                    UI Design X
+                </li>
+                <li style="border-radius:40px;box-shadow:0px 0px 2px grey ;padding:10px;margin-right: 100px;"><i
+                        style="margin-right: 8px;" class="fa-sharp fa-solid fa-location-dot"></i>New
+                    Delhi,India</li>
+                <li style="padding:10px;margin-right: 0px;"><i class="fa-solid fa-suitcase"></i>Job Type</li>
+                <li style="padding:10px;margin-right: 0px;"><i class="fa-sharp fa-solid fa-dollar-sign"></i>Salary Range
+                </li>
+                <li
+                    style="padding:10px;margin-right: 0px;background-color: blue;color: white;border-radius:0px 10px 10px 0px ;">
+                    Find Job</li>
+            </ul>
+        </nav>
+
+        <!--Items Filter-->
+        <div>
+            <div>
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <div class="card001">
+                        <form method="post" class="p-1">
+                            <section>
+                                <span class="text-muted font-weight-bold">Full Time Employee</span>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="categorya">
+                                        <label class="form-check-label" for="categorya">
+                                            Employee A
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="categoryb">
+                                        <label class="form-check-label" for="categoryb">
+                                            Employee B
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="categoryc">
+                                        <label class="form-check-label" for="categoryc">
+                                            Employee C
+                                        </label>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="mt-2">
+                                <span class="text-muted font-weight-bold">Employee Ratings</span>
+                                <div class="col-12">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">4 * & up</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio3" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio3">3 * & up</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio4" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio4">2 * & up</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio5" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio5">1 * & up</label>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </form>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <div>
+                        <form method="post" class="p-1">
+                            <section>
+                                <span class="text-muted font-weight-bold">Category</span>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="categorya">
+                                        <label class="form-check-label" for="categorya">
+                                            Category A
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="categoryb">
+                                        <label class="form-check-label" for="categoryb">
+                                            Category B
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="categoryc">
+                                        <label class="form-check-label" for="categoryc">
+                                            Category C
+                                        </label>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="mt-2">
+                                <span class="text-muted font-weight-bold">Customer Ratings</span>
+                                <div class="col-12">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">4 * & up</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio3" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio3">3 * & up</label>
+                                    </div>
+                                    <span class="text-muted font-weight-bold">Category</span>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="categorya">
+                                            <label class="form-check-label" for="categorya">
+                                                Category A
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="categoryb">
+                                            <label class="form-check-label" for="categoryb">
+                                                Category B
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="categoryc">
+                                            <label class="form-check-label" for="categoryc">
+                                                Category C
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio4" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio4">2 * & up</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio5" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio5">1 * & up</label>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cardiv" style="display:flex;flex-wrap:wrap;">
+                <div>
+                    <div class="card001"
+                        style="background: white;width:300px;height:400px;padding:20px;border-radius: 10px;box-shadow:0px 0px 10px #666666 ;">
+                        <div><img src="./images.png" alt="" width="120" height="100">
+                            <h1>Name</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sint.</p>
+                            <div style="display: flex;"><a href=""
+                                    style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Full
+                                    time</a>
+                                <a href=""
+                                    style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Min.
+                                    1year</a>
+                                <a href=""
+                                    style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">max</a>
+                            </div>
+                            <div style="display: flex;margin:10px;"><button class="btn"
+                                    style="margin-right:2px;color:white ;">Apply
+                                    Now</button>
+                                <button class="btn"
+                                    style="color:grey;background-color: #ccc !important;">Messages</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card001"
+                    style="background: white;width:300px;height:400px;padding:20px;border-radius: 10px;box-shadow:0px 0px 10px #666666 ;">
+                    <div><img src="./images.png" alt="" width="120" height="100">
+                        <h1>Name</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sint.</p>
+                        <div style="display: flex;"><a href=""
+                                style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Full
+                                time</a>
+                            <a href="" style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Min.
+                                1year</a>
+                            <a href=""
+                                style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">max</a>
+                        </div>
+                        <div style="display: flex;margin:10px;"><button class="btn"
+                                style="margin-right:2px;color:white ;">Apply
+                                Now</button>
+                            <button class="btn" style="color:grey;background-color: #ccc !important;">Messages</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card001"
+                    style="background: white;width:300px;height:400px;padding:20px;border-radius: 10px;box-shadow:0px 0px 10px #666666 ;">
+                    <div><img src="./images.png" alt="" width="120" height="100">
+                        <h1>Name</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sint.</p>
+                        <div style="display: flex;"><a href=""
+                                style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Full
+                                time</a>
+                            <a href="" style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Min.
+                                1year</a>
+                            <a href=""
+                                style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">max</a>
+                        </div>
+                        <div style="display: flex;margin:10px;"><button class="btn"
+                                style="margin-right:2px;color:white ;">Apply
+                                Now</button>
+                            <button class="btn" style="color:grey;background-color: #ccc !important;">Messages</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card001"
+                    style="background: white;width:300px;height:400px;padding:20px;border-radius: 10px;box-shadow:0px 0px 10px #666666 ;">
+                    <div><img src="./images.png" alt="" width="120" height="100">
+                        <h1>Name</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sint.</p>
+                        <div style="display: flex;"><a href=""
+                                style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Full
+                                time</a>
+                            <a href="" style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Min.
+                                1year</a>
+                            <a href=""
+                                style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">max</a>
+                        </div>
+                        <div style="display: flex;margin:10px;"><button class="btn"
+                                style="margin-right:2px;color:white ;">Apply
+                                Now</button>
+                            <button class="btn" style="color:grey;background-color: #ccc !important;">Messages</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card001"
+                    style="background: white;width:300px;height:400px;padding:20px;border-radius: 10px;box-shadow:0px 0px 10px #666666 ;">
+                    <div><img src="./images.png" alt="" width="120" height="100">
+                        <h1>Name</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sint.</p>
+                        <div style="display: flex;"><a href=""
+                                style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Full
+                                time</a>
+                            <a href="" style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Min.
+                                1year</a>
+                            <a href=""
+                                style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">max</a>
+                        </div>
+                        <div style="display: flex;margin:10px;"><button class="btn"
+                                style="margin-right:2px;color:white ;">Apply
+                                Now</button>
+                            <button class="btn" style="color:grey;background-color: #ccc !important;">Messages</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card001"
+                    style="background: white;width:300px;height:400px;padding:20px;border-radius: 10px;box-shadow:0px 0px 10px #666666 ;">
+                    <div><img src="./images.png" alt="" width="120" height="100">
+                        <h1>Name</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sint.</p>
+                        <div style="display: flex;"><a href=""
+                                style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Full
+                                time</a>
+                            <a href="" style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">Min.
+                                1year</a>
+                            <a href=""
+                                style="color:blue;background-color:#DEECFA;padding:10px;margin-right:4px;">max</a>
+                        </div>
+                        <div style="display: flex;margin:10px;"><button class="btn"
+                                style="margin-right:2px;color:white ;">Apply
+                                Now</button>
+                            <button class="btn" style="color:grey;background-color: #ccc !important;">Messages</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

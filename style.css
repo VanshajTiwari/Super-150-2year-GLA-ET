@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Montserrat:wght@100&family=Nunito:wght@200&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav001 li:hover {
+    color: blue;
+}
+
+.btn {
+    width: 200px;
+    background-color: blue !important;
+    color: white;
+}
+
+.card001 {
+    margin: 10px;
+}
+
+.cardiv {
+    position: absolute;
+    width: 1000px;
+    left: 440px;
+    top: 200px;
+
+}
+
+main {
+    transition: 0.5s;
+}
+
+main:hover {
+    background-color: #2B2ECF;
+    color: white
+}
+
+li i {
+    color: blue;
+    margin-right: 5px;
+}
